@@ -1,0 +1,23 @@
+{
+  "name": "jobs_ai",
+  "version": "1.0.0",
+  "description": "A job search assistant Twitter bot is designed to provide job seekers with real-time job listings, industry insights, and job search tips on Twitter. It aims to streamline the job search process and keep users informed about the latest job opportunities.",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "now": {
+    "alias": "my-awesome-alias",
+    "files": [
+      "index.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "twit": "^2.2.11"
+  }
+}
